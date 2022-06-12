@@ -1,0 +1,53 @@
+.crew-powers {
+	border: 1px solid green;
+	position: absolute;
+	top: 10px;
+	left: 0;
+}
+.crew-powers span {
+	margin:0 10px 0 10px;
+	font-size: 0.9em;	
+	font-weight: bold;
+}
+.crew-power {
+	border: 1px solid green;
+}
+.power {
+	border: 1px solid red;
+	font-size: 200%;
+	font-weight: bold;
+	height: 54px;
+	position: absolute;
+	text-align: center;
+	width: 100px;
+}
+.power.power-name {
+	top: 272px;
+	left: 12px;
+	width: 301px;
+}
+.power.power-activation {
+	top: 272px;
+	left: 321px;
+	width: 178px;
+}
+.power.power-strain {
+	top: 272px;
+	left: 507px;
+	width: 126px;
+}
+.crew-power-right .power.power-name {
+	top: 272px;
+	left: 641px;
+	width: 209px;
+}
+.crew-power-right .power.power-activation {
+	top: 272px;
+	left: 857px;
+	width: 202px;
+}
+.crew-power-right .power.power-strain {
+	top: 272px;
+	left: 1066px;
+	width: 136px;
+}
