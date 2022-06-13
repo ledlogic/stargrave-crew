@@ -16,64 +16,70 @@
 	font-weight: bold;
 }
 .crew-stat {
-	border: 1px solid green;
 	position: absolute;
 	top: 10px;
 	left: 0;
 }
 .stat {
-	border: 1px solid orange;
+	border: 1px solid transparent;
 	font-size: 200%;
 	font-weight: bold;
 	height: 54px;
 	position: absolute;
 	text-align: center;
-	width: 100px;
 }
-.stat.stat-name {
+.crew.crew-captain .stat.stat-name {
 	height: 55px;
 	top: 1px;
 	left: 146px;
 	width: 693px;
 }
-.stat.stat-level {
+.crew.crew-captain .stat.stat-level {
 	height: 55px;
 	top: 1px;
 	left: 952px;
 	width: 250px;
 }
-.stat.stat-move {
+.crew.crew-captain .stat.stat-move {
 	top: 112px;
 	left: 13px;
 	width: 120px;
 }
-.stat.stat-fight {
+.crew.crew-captain .stat.stat-fight {
 	top: 112px;
-	left: 141px;
+	left: 142px;
 	width: 133px;
 }
-.stat.stat-shoot {
+.crew.crew-captain .stat.stat-shoot {
 	top: 112px;
-	left: 281px;
-	width: 112px;
+	left: 283px;
+	width: 108px;
 }
-.stat.stat-armour {
+.crew.crew-captain .stat.stat-armour {
 	top: 112px;
-	left: 400px;
+	left: 401px;
 	width: 164px;
 }
-.stat.stat-will {
+.crew.crew-captain .stat.stat-will {
 	top: 112px;
-	left: 570px;
-	width: 126px;
+	left: 572px;
+	width: 124px;
 }
-.stat.stat-health-max {
+.crew.crew-captain .stat.stat-health-max {
 	top: 112px;
-	left: 705px;
+	left: 706px;
 	width: 134px;
 }
-.stat.stat-health-current {
+.crew.crew-captain .stat.stat-health-current {
 	top: 112px;
-	left: 847px;
-	width: 355px;
+	left: 848px;
+	width: 354px;
+}
+.crew.crew-captain .gear {
+	border: 1px solid transparent;
+	position: absolute;
+	left: 214px;
+	top: 584px;
+	height: 138px;
+	width: 988px;	
 }
