@@ -1,0 +1,47 @@
+[
+{
+    "type": "text",
+    "name": "name",
+    "value": "Captain Tight Pants"
+},
+{
+    "type": "numeric",
+    "name": "level",
+    "value": "1"
+},
+{
+    "type": "numeric",
+    "name": "move",
+    "value": "0"
+},
+{
+    "type": "numeric",
+    "name": "fight",
+    "value": "0"
+},
+{
+    "type": "numeric",
+    "name": "shoot",
+    "value": "0"
+},
+{
+    "type": "numeric",
+    "name": "armour",
+    "value": "0"
+},
+{
+    "type": "numeric",
+    "name": "will",
+    "value": "0"
+},
+{
+    "type": "numeric",
+    "name": "health-max",
+    "value": "0"
+},
+{
+    "type": "numeric",
+    "name": "health-current",
+    "value": "0"
+}
+]

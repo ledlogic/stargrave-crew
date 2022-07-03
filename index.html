@@ -23,7 +23,15 @@
 	
 		<main>
 			<div class="container">
-				<div class="crew crew-captain">
+				<div class="crew crew-survey">
+					<div class="crew-species">
+						<select id="crew-species-select" name="species">
+							<option value="">Please select...</option>
+						</select>
+					</div>
+				</div>
+			
+				<div class="crew crew-captain sg-hidden">
 					<img class="crew-bg" src="img/captain.jpg" />
 					<div class="crew-stat">
 						<input class="stat stat-name" value="Captain Tight Pants" />
@@ -111,8 +119,12 @@
 			</div>
 		</footer>
 	
-		<script src="js/vendor/modernizr-3.11.2.min.js"></script>
+		<script src="js/lib/modernizr/3.11.2/modernizr-3.11.2.min.js"></script>
+		<script src="js/lib/jquery/1.11.2/jquery-1.11.2.min.js"></script>
+		<script src="js/lib/underscore/1.7.0/underscore-1.7.0-min.js"></script>
 		<script src="js/plugins.js"></script>
-		<script src="js/main.js"></script>
+		<script src="js/sg/sg.js"></script>
+		<script src="js/sg/sg-stats.js"></script>
+		<script src="js/sg/sg-species.js"></script>
 	</body>
 </html>
