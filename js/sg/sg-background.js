@@ -24,12 +24,14 @@ sg.background = {
 			});
 	},
 	
-	render: function() {
-		var list = sg.background.list;
-		_.each(list, function(background, index) {
-			var o = "<option>" + background.type + "</option>";
-			$("#crew-background-select").append(o);
-		});
+	change: function(background) {
+		var newBackground = $(this).val();
+		sg.log("change background, newBackground: " + newBackground);
+		var crew = sg.crew.find($(this));
+		sg.log("change background, crew: " + crew);
+		if (crew) {
+			crew.setBackground(newBackground);
+		}
 	}
 
 };

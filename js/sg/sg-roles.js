@@ -29,7 +29,7 @@ sg.roles = {
 		var roles = sg.roles.list;
 		var ret = null;
 		_.each(roles, function(roleValue, roleKey) {
-			sg.log(arguments);
+			//sg.log(arguments);
 			if (!ret && roleValue.name == roleName) {
 				ret = roleValue
 			}

@@ -13,14 +13,17 @@ sg.render = {
 	crew: function() {
 		var c = [];
 		for (var i=0;i<sg.crew.list.length;i++) {
-			var m = sg.render.member(sg.crew.list[i]);
+			var m = sg.render.member(i);
 			c.push(m);
 		}
 		$(".crew").append(c.join(""));
+	
+		$(".stat-background").on("change", sg.background.change);
 	},
 	
-	member: function(member) {
+	member: function(i) {
 		var c = [];
+		var member = sg.crew.list[i];
 		var role = member.getStatValue("role");
 		
 		// TODO: temp only
@@ -51,10 +54,24 @@ sg.render = {
 		var healthType = "number";
 		var healthCurrentType = "number";
 		
-		c.push("<div class=\"crew-" + role + "\">");
+		c.push("<div class=\"crew-" + role + "\" data-member-i=\"" + i + "\">");
 		c.push("<img class=\"crew-bg\" src=\"img/" + role + ".jpg\"/>");
 		c.push("<div class=\"crew-stat\">");
 		c.push("<input class=\"stat stat-name\"           type=\"" + nameType + "\" value=\"" + name + "\" />");
+		c.push("<select class=\"stat stat-background\">");
+		
+		c.push("<option value=\"\">");
+		c.push("No Background");
+		c.push("</option>");
+		
+		_.each(sg.background.list,function(background, index) {
+			var prettyBackground = sg.render.deslugifyAndCapitalize(background.type);
+			c.push("<option value=\"" + background.type + "\">");
+			c.push(prettyBackground);
+			c.push("</option>");
+		});
+		
+		c.push("</select>");
 		c.push("<input class=\"stat stat-level\"          type=\"" + levelType + "\" value=\"" + level + "\" />");
 		c.push("<input class=\"stat stat-move\"           type=\"" + moveType + "\" value=\"" + move + "\" />");
 		c.push("<input class=\"stat stat-fight\"          type=\"" + fightType + "\" value=\"" + fight + "\" />");
@@ -87,7 +104,8 @@ sg.render = {
 	},
 	
 	deslugifyAndCapitalize: function(str) {
-		var ret = str.replace(/\w\S*/g, (w) => (w.replace(/^\w/, (c) => c.toUpperCase())));
+		var ret = str.replace(/-/g, " ");
+		ret = ret.replace(/\w\S*/g, (w) => (w.replace(/^\w/, (c) => c.toUpperCase())));
 		return ret;
 	}
 };

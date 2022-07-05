@@ -11,7 +11,7 @@
 },
 {
     "type": "text",
-    "name": "type",
+    "name": "background",
     "value": "biomorph|cyborg|mystic|robotics-expert|rogue|psionicist|tekker|veteran"
 },
 {

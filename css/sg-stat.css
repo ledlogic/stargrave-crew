@@ -34,7 +34,13 @@
 	height: 55px;
 	top: 1px;
 	left: 146px;
-	width: 693px;
+	width: 343px;
+}
+.crew .crew-captain .stat.stat-background {
+	height: 58px;
+	top: 1px;
+	left: 500px;
+	width: 346px;
 }
 .crew .crew-captain .stat.stat-level {
 	height: 55px;

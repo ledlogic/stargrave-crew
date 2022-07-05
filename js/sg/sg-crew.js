@@ -38,6 +38,18 @@ sg.crew = {
 			}
 		});
 		return ret;
+	},
+	
+	// find the crew object associated with an element
+	find: function(element) {
+		sg.log(["find element:", element]);
+		var dataMemberI = $(element).closest("[data-member-i]");
+		sg.log(["dataMemberI:", dataMemberI]);
+		if (dataMemberI.length) {
+			var i = dataMemberI.attr("data-member-i");
+			return sg.crew.list[i];
+		}
+		return null;
 	}
 };
 
@@ -58,12 +70,12 @@ Crew.prototype.init = function(settings) {
 	});
 	
 	var roleName = settings.role;
-	sg.log("roleName:" + roleName);
+	//sg.log("roleName:" + roleName);
 	var role = sg.roles.find(roleName);
-	sg.log("role:" + role);
+	//sg.log("role:" + role);
 	
 	_.each(role.stats, function(searchStatValue, statName) {
-		sg.log("statName:" + statName + ", searchStatValue:" + searchStatValue);
+		//sg.log("statName:" + statName + ", searchStatValue:" + searchStatValue);
 		sg.crew.setStatValue(stats, statName, searchStatValue);
 	});
 
@@ -81,4 +93,10 @@ Crew.prototype.getStatValue = function(statName) {
 	});
 	//sg.log("getStatValue, ret:" + ret);
 	return ret;
+}
+
+Crew.prototype.setBackground = function(background) {
+	var stats = this.stats;
+	sg.crew.setStatValue(stats, "background", background);
+	sg.log(["stats:", stats]);
 }
