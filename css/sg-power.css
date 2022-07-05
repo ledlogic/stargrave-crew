@@ -1,9 +1,9 @@
-.crew.crew-captain .crew-powers {
+.crew .crew-captain .crew-powers {
 	position: absolute;
 	top: 10px;
 	left: 0;
 }
-.crew.crew-captain .crew-powers span {
+.crew .crew-captain .crew-powers span {
 	margin:0 10px 0 10px;
 	font-size: 0.9em;	
 	font-weight: bold;
@@ -17,71 +17,71 @@
 	text-align: center;
 	width: 100px;
 }
-.crew.crew-captain .crew-power-1 .power,
-.crew.crew-captain .crew-power-6 .power {
+.crew .crew-captain .crew-power-1 .power,
+.crew .crew-captain .crew-power-6 .power {
 	top: 274px;
 }
-.crew.crew-captain .crew-power-2 .power,
-.crew.crew-captain .crew-power-7 .power {
+.crew .crew-captain .crew-power-2 .power,
+.crew .crew-captain .crew-power-7 .power {
 	top: 334px;
 }
-.crew.crew-captain .crew-power-3 .power,
-.crew.crew-captain .crew-power-8 .power {
+.crew .crew-captain .crew-power-3 .power,
+.crew .crew-captain .crew-power-8 .power {
 	top: 393px;
 }
-.crew.crew-captain .crew-power-4 .power,
-.crew.crew-captain .crew-power-9 .power {
+.crew .crew-captain .crew-power-4 .power,
+.crew .crew-captain .crew-power-9 .power {
 	top: 453px;
 }
-.crew.crew-captain .crew-power-5 .power,
-.crew.crew-captain .crew-power-10 .power {
+.crew .crew-captain .crew-power-5 .power,
+.crew .crew-captain .crew-power-10 .power {
 	top: 513px;
 }
-.crew.crew-captain .crew-power-1 .power.power-name,
-.crew.crew-captain .crew-power-2 .power.power-name,
-.crew.crew-captain .crew-power-3 .power.power-name,
-.crew.crew-captain .crew-power-4 .power.power-name,
-.crew.crew-captain .crew-power-5 .power.power-name {
+.crew .crew-captain .crew-power-1 .power.power-name,
+.crew .crew-captain .crew-power-2 .power.power-name,
+.crew .crew-captain .crew-power-3 .power.power-name,
+.crew .crew-captain .crew-power-4 .power.power-name,
+.crew .crew-captain .crew-power-5 .power.power-name {
 	left: 14px;
 	width: 298px;
 }
-.crew.crew-captain .crew-power-1 .power.power-activation,
-.crew.crew-captain .crew-power-2 .power.power-activation,
-.crew.crew-captain .crew-power-3 .power.power-activation,
-.crew.crew-captain .crew-power-4 .power.power-activation,
-.crew.crew-captain .crew-power-5 .power.power-activation {
+.crew .crew-captain .crew-power-1 .power.power-activation,
+.crew .crew-captain .crew-power-2 .power.power-activation,
+.crew .crew-captain .crew-power-3 .power.power-activation,
+.crew .crew-captain .crew-power-4 .power.power-activation,
+.crew .crew-captain .crew-power-5 .power.power-activation {
 	left: 321px;
 	width: 178px;
 }
-.crew.crew-captain .crew-power-1 .power.power-strain,
-.crew.crew-captain .crew-power-2 .power.power-strain,
-.crew.crew-captain .crew-power-3 .power.power-strain,
-.crew.crew-captain .crew-power-4 .power.power-strain,
-.crew.crew-captain .crew-power-5 .power.power-strain {
+.crew .crew-captain .crew-power-1 .power.power-strain,
+.crew .crew-captain .crew-power-2 .power.power-strain,
+.crew .crew-captain .crew-power-3 .power.power-strain,
+.crew .crew-captain .crew-power-4 .power.power-strain,
+.crew .crew-captain .crew-power-5 .power.power-strain {
 	left: 507px;
 	width: 126px;
 }
-.crew.crew-captain .crew-power-6 .power.power-name,
-.crew.crew-captain .crew-power-7 .power.power-name,
-.crew.crew-captain .crew-power-8 .power.power-name,
-.crew.crew-captain .crew-power-9 .power.power-name,
-.crew.crew-captain .crew-power-10 .power.power-name {
+.crew .crew-captain .crew-power-6 .power.power-name,
+.crew .crew-captain .crew-power-7 .power.power-name,
+.crew .crew-captain .crew-power-8 .power.power-name,
+.crew .crew-captain .crew-power-9 .power.power-name,
+.crew .crew-captain .crew-power-10 .power.power-name {
 	left: 642px;
 	width: 208px;
 }
-.crew.crew-captain .crew-power-6 .power.power-activation,
-.crew.crew-captain .crew-power-7 .power.power-activation,
-.crew.crew-captain .crew-power-8 .power.power-activation,
-.crew.crew-captain .crew-power-9 .power.power-activation,
-.crew.crew-captain .crew-power-10 .power.power-activation {
+.crew .crew-captain .crew-power-6 .power.power-activation,
+.crew .crew-captain .crew-power-7 .power.power-activation,
+.crew .crew-captain .crew-power-8 .power.power-activation,
+.crew .crew-captain .crew-power-9 .power.power-activation,
+.crew .crew-captain .crew-power-10 .power.power-activation {
 	left: 860px;
 	width: 200px;
 }
-.crew.crew-captain .crew-power-6 .power.power-strain,
-.crew.crew-captain .crew-power-7 .power.power-strain,
-.crew.crew-captain .crew-power-8 .power.power-strain,
-.crew.crew-captain .crew-power-9 .power.power-strain,
-.crew.crew-captain .crew-power-10 .power.power-strain {
+.crew .crew-captain .crew-power-6 .power.power-strain,
+.crew .crew-captain .crew-power-7 .power.power-strain,
+.crew .crew-captain .crew-power-8 .power.power-strain,
+.crew .crew-captain .crew-power-9 .power.power-strain,
+.crew .crew-captain .crew-power-10 .power.power-strain {
 	left: 1068px;
 	width: 136px;
 }

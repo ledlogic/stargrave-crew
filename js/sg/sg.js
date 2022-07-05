@@ -15,8 +15,11 @@ var sg = {
 
 	init: function() {
 		sg.queue = [
+			"sg.roles",
 			"sg.stats",
-			"sg.species"
+			"sg.background",
+			"sg.crew",
+			"sg.render"
 		];
 		setTimeout("sg.nextInit()", 10);
 	},

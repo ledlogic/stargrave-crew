@@ -1,5 +1,5 @@
 [{
-    "type": "Biomorph",
+    "type": "biomorph",
     "statModifications": {
         "health": 1
     },
@@ -11,7 +11,7 @@
     },
     "corePowers": ["Adrenaline Surge", "Armour Plates", "Camouflage", "Fling", "Regenerate", "Restructure Body", "Toxic Claws", "Toxic Secretion"]
 }, {
-    "type": "Cyborg",
+    "type": "cyborg",
     "statModifications": {
         "health": 1
     },
@@ -23,7 +23,7 @@
     },
     "corePowers": ["Camouflage", "Control Robot", "Data Knock", "Energy Shield", "Power Spike", "Quick-Step", "Target Lock", "Temporary Upgrade"]
 }, {
-    "type": "Mystic",
+    "type": "mystic",
     "statModifications": {
         "will": 2,
         "health": 1
@@ -36,7 +36,7 @@
     },
     "corePowers": ["Control Animal", "Dark Energy", "Heal", "Life Leach", "Mystic Trance", "Puppet Master", "Suggestion", "Void Blade"]
 }, {
-    "type": "Robotics Expert",
+    "type": "robotics-expert",
     "statModifications": {
         "will": 1
     },
@@ -49,7 +49,7 @@
     },
     "corePowers": ["Control Robot", "Create Robot", "Drone", "Electromagnetic Pulse", "Remote Firing", "Remote Guidance", "Repair Robot", "Re-wire Robot"]
 }, {
-    "type": "Rogue",
+    "type": "rogue",
     "statModifications": {
         "will": 1,
         "health": 1
@@ -62,7 +62,7 @@
     },
     "corePowers": ["Bait and Switch", "Bribe", "Cancel Power", "Concealed Firearm", "Data Jump", "Fortune", "Haggle", "Quick-Step"]
 }, {
-    "type": "Psionicist",
+    "type": "psionicist",
     "statModifications": {
         "will": 2,
         "health": 1
@@ -75,7 +75,7 @@
     },
     "corePowers": ["Break Lock", "Destroy Weapon", "Lift", "Psionic Fire", "Psychic Shield", "Pull", "Suggestion", "Wall of Force"]
 }, {
-    "type": "Tekker",
+    "type": "tekker",
     "statModifications": {
         "will": 2
     },
@@ -88,7 +88,7 @@
     },
     "corePowers": ["Antigravity Projection", "Data Jump", "Data Knock", "Data Skip", "Drone", "Electromagnetic Pulse", "Holographic Wall", "Transport"]
 }, {
-    "type": "Veteran",
+    "type": "veteran",
     "statModifications": {
         "fight": 1,
         "health": 1

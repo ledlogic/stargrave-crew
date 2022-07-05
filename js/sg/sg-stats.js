@@ -11,7 +11,8 @@ sg.stats = {
 	request: function(uri) {
 		sg.log("requesting stats");
 		
-		$.ajax("data/sg-stats.json")
+		var ts = (new Date()).getTime();
+		$.ajax("data/sg-stats.json?ts=" + ts)
 			.done(function(data, status, jqxhr) {
 				sg.stats.list = data;
 				sg.log("found " + data.length + " stats");

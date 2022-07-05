@@ -1,0 +1,41 @@
+[
+	{
+		"name": "captain",
+		"stats": {
+			"level": 15,
+			"move": 6,
+			"fight": 3,
+			"shoot": 2,
+			"armor": 9,
+			"will": 3,
+			"health": 16,
+			"gearSlots": 6
+		}
+	},
+	{
+		"name": "first-mate",
+		"stats": {
+			"level": 0,
+			"move": 6,
+			"fight": 2,
+			"shoot": 2,
+			"armor": 9,
+			"will": 2,
+			"health": 14,
+			"gearSlots": 5
+		}
+	},
+	{
+		"name": "soldier",
+		"stats": {
+			"level": 0,
+			"move": 0,
+			"fight": 0,
+			"shoot": 0,
+			"armor": 0,
+			"will": 0,
+			"health": 0,
+			"gearSlots": 0
+		}
+	}
+]

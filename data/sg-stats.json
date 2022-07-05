@@ -2,7 +2,17 @@
 {
     "type": "text",
     "name": "name",
-    "value": "Captain Tight Pants"
+    "value": "First Last"
+},
+{
+    "type": "text",
+    "name": "role",
+    "value": "captain|first-mate|soldier"
+},
+{
+    "type": "text",
+    "name": "type",
+    "value": "biomorph|cyborg|mystic|robotics-expert|rogue|psionicist|tekker|veteran"
 },
 {
     "type": "numeric",
@@ -36,7 +46,7 @@
 },
 {
     "type": "numeric",
-    "name": "health-max",
+    "name": "health",
     "value": "0"
 },
 {

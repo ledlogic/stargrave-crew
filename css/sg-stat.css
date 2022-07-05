@@ -1,6 +1,4 @@
 .crew {
-	padding: 10px;
-	position: relative;
 }
 .crew-bg {
 	border: 1px solid rgb(0, 0, 0);
@@ -15,9 +13,13 @@
 	font-size: 0.9em;	
 	font-weight: bold;
 }
+.crew-captain {
+	padding: 10px;
+	position: relative;
+}
 .crew-stat {
 	position: absolute;
-	top: 10px;
+	top: 11px;
 	left: 0;
 }
 .stat {
@@ -28,54 +30,54 @@
 	position: absolute;
 	text-align: center;
 }
-.crew.crew-captain .stat.stat-name {
+.crew .crew-captain .stat.stat-name {
 	height: 55px;
 	top: 1px;
 	left: 146px;
 	width: 693px;
 }
-.crew.crew-captain .stat.stat-level {
+.crew .crew-captain .stat.stat-level {
 	height: 55px;
 	top: 1px;
 	left: 952px;
 	width: 250px;
 }
-.crew.crew-captain .stat.stat-move {
+.crew .crew-captain .stat.stat-move {
 	top: 112px;
 	left: 13px;
 	width: 120px;
 }
-.crew.crew-captain .stat.stat-fight {
+.crew .crew-captain .stat.stat-fight {
 	top: 112px;
 	left: 142px;
 	width: 133px;
 }
-.crew.crew-captain .stat.stat-shoot {
+.crew .crew-captain .stat.stat-shoot {
 	top: 112px;
 	left: 283px;
 	width: 108px;
 }
-.crew.crew-captain .stat.stat-armour {
+.crew .crew-captain .stat.stat-armour {
 	top: 112px;
 	left: 401px;
 	width: 164px;
 }
-.crew.crew-captain .stat.stat-will {
+.crew .crew-captain .stat.stat-will {
 	top: 112px;
 	left: 572px;
 	width: 124px;
 }
-.crew.crew-captain .stat.stat-health-max {
+.crew .crew-captain .stat.stat-health {
 	top: 112px;
 	left: 706px;
 	width: 134px;
 }
-.crew.crew-captain .stat.stat-health-current {
+.crew .crew-captain .stat.stat-health-current {
 	top: 112px;
 	left: 848px;
 	width: 354px;
 }
-.crew.crew-captain .gear {
+.crew .crew-captain .gear {
 	border: 1px solid transparent;
 	position: absolute;
 	left: 214px;
