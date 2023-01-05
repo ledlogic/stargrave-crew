@@ -33,6 +33,4 @@ sg.background = {
 			crew.setBackground(newBackground);
 		}
 	}
-
 };
-	

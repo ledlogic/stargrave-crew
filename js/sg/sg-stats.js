@@ -22,8 +22,6 @@ sg.stats = {
 			})
 			.always(function() {
 				setTimeout(sg.nextInit, 10);
-			});
+		});
 	}
-
 };
-	

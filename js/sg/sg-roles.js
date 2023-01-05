@@ -36,6 +36,4 @@ sg.roles = {
 		});
 		return ret;
 	}
-
-};
-	
+};	

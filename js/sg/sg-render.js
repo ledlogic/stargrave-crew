@@ -84,23 +84,6 @@ sg.render = {
 		c.push("</div>");
 		return c.join("");
 
-/*
-
-					<div class="crew crew-captain sg-hidden">
-					<img class="crew-bg" src="img/captain.jpg" />
-					<div class="crew-stat">
-						<input class="stat stat-name" value="Captain Tight Pants" />
-						<input class="stat stat-level" value="15" />
-						<input class="stat stat-move" value="+1" />
-						<input class="stat stat-fight" value="+2" />
-						<input class="stat stat-shoot" value="+3" />
-						<input class="stat stat-armour" value="+4" />
-						<input class="stat stat-will" value="+5" />
-						<input class="stat stat-health-max" value="+6" />
-						<input class="stat stat-health-current" value="+7" />
-					</div>
-*/
-
 	},
 	
 	deslugifyAndCapitalize: function(str) {
@@ -109,4 +92,3 @@ sg.render = {
 		return ret;
 	}
 };
-
